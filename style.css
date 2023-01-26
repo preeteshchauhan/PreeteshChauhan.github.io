@@ -331,7 +331,7 @@ h3.my-profession
 {
     flex: 0 0 100%;
     max-width: 100%;    
-}
+}ss
 .about .about-content .about-text h3
 {
     font-size: 24px;
@@ -383,13 +383,21 @@ h3.my-profession
 .about .about-content .skills .skill-item .progress .progress-in
 {
     position: absolute;
-    left: 0;
+    left: 0 ;
     top: 0;
     height: 100%;
     border-radius: 4px;
     background-color: red;
 }
-
+.about .about-content .skills .skill-item .skill-percent
+{
+    position: absolute;
+    right: 0;
+    color: var(--text-black-900);
+    top: -40px;
+    font-weight: 400;
+    line-height: 400px;
+}
 
 
 
